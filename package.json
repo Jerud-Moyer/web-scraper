@@ -8,7 +8,9 @@
     "test:watch": "npm run test -- --watch",
     "start": "node -r dotenv/config index.js",
     "start:watch": "nodemon -r dotenv/config index.js",
-    "scrape": "node -r dotenv/config ./lib/scraper.js"
+    "scrape": "node -r dotenv/config ./lib/scraper.js",
+    "producer": "node -r dotenv/config ./lib/producer.js",
+    "consumer": "node -r dotenv/config ./lib/consumer.js"
   },
   "jest": {
     "testEnvironment": "node"
